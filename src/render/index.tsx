@@ -15,5 +15,5 @@ import App from './views/App'
 // }
 
 // 创建react根组件
-const root = createRoot(document.getElementById('app'))
+const root = createRoot(document.getElementById('app')!)
 root.render(<App />)
